@@ -1,0 +1,123 @@
+p{
+    font-size: 18px;
+    text-align: right;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: darkred
+}
+.Navbar{
+    background-color: rgb(185, 105, 105);
+}
+ 
+.nav{
+    font-size: 20px;
+    color: rgb(73, 71, 71);
+    text-align: left;
+}
+body{
+    border: 10px solid gray;
+}
+.pic1{
+    grid-area: pic1;
+}
+.pic2 {
+    grid-area: pic2;
+}
+.pic3 {
+    grid-area: pic3;
+}
+ 
+.pic4 {
+    grid-area: pic4;
+}
+.pic5 {
+    grid-area: pic5;
+}
+ 
+.pic6 {
+    grid-area: pic6;
+}
+ 
+.pic7 {
+    grid-area: pic7;
+}
+ 
+.pic8 {
+    grid-area: pic8;
+}
+.pic9 {
+    grid-area: pic9;
+}
+ 
+.pic10 {
+    grid-area: pic10;
+}
+ 
+.pic11 {
+    grid-area: pic11;
+}
+ 
+.pic12 {
+    grid-area: pic12;
+}
+ 
+.pic13 {
+    grid-area: pic13;
+}
+ 
+.pic14 {
+    grid-area: pic14;
+}
+ 
+.pic15 {
+    grid-area: pic15;
+}
+ 
+.pic16 {
+    grid-area: pic16;
+}
+.pic17 {
+    grid-area: pic17;
+}
+ 
+.pic18 {
+    grid-area: pic18;
+}
+ 
+.pic19 {
+    grid-area: pic19;
+}
+ 
+.pic20 {
+    grid-area: pic20;
+}
+ 
+.pic21 {
+    grid-area: pic21;
+}
+ 
+.sig{
+    grid-area:sig;
+    padding-top: 125px;
+    padding-right: 5px;
+}
+.container {
+    display: grid;
+    width: auto;
+    height: auto;
+    grid-template-columns:auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "pic1 pic1 pic1 pic1 pic2"
+    "pic1 pic1 pic1 pic1 pic3"
+    "pic1 pic1 pic1 pic1 pic4"
+    "pic5 pic5 pic6 pic7 pic8"
+    "pic9 pic10 pic10 pic11 pic12"
+    "pic9 pic14 pic15 pic15 pic16"
+    "pic13 pic14 pic17 pic18 pic19"
+    "pic20 pic21 pic21 . sig";
+}
+img{
+    width: 95%;
+    height: 95%;
+}
